@@ -42,7 +42,7 @@ This prototype models a unit using a synthetic three-component mixture. It is no
 
 The included model bundle supports a limited synthetic A/B/C configuration experiment. Its integrity checks do not establish industrial accuracy or acceptance on other process datasets.
 
-**AMD Token Factory integration is pending.** Participant access and an official endpoint/model are still required. This submission does not claim AMD inference or GPU execution.
+**AMD Token Factory integration verified.** REFINERY successfully called Qwen3.8-27B through AMD Token Factory to explain a diagnostic label. Physical simulation and diagnosis remain CPU-local; GPU execution of the physical simulation is not claimed.
 
 ## Contest materials
 
