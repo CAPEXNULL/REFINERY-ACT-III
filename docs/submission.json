@@ -1,0 +1,29 @@
+{
+  "title": "REFINERY: Explainable Process Decisions",
+  "short_description": "REFINERY turns a synthetic refinery process into an operator workspace: inspect six loops, rank diagnostic hypotheses, and compare what-if actions with visible observations and forecasts. The CPU demo runs locally without an API key.",
+  "long_description": "REFINERY is an engineering prototype for understanding disturbances in a synthetic refinery unit. It brings a physical process model, observation-based diagnosis, conditional action forecasts, and an operator workspace into one reproducible CPU demonstration.\n\nAn engineer can run a scenario, inspect temperatures and pressures across six logical loops, review ranked diagnostic hypotheses and their observed evidence, and compare the predicted consequences of holding, restoring cooling, reducing heating, or reducing feed. Charts, an expandable signal table, alarms, calculation history, engineering notes, report exports, and a dedicated video wall connect the analysis to a practical review workflow. English and Russian interfaces, configurable labels, units, themes, and alarm thresholds support different presentation needs.\n\nThe prototype keeps important boundaries visible. Diagnostic similarity scores are not calibrated probabilities. Forecasts depend on stated assumptions. Imported data is marked as unverified, missing observations remain missing, and the interface issues no commands to operating equipment. This is a synthetic unit model, not an industrially qualified refinery control system.\n\nThe current demonstration uses Python, NumPy, SciPy, CoolProp, and a browser interface built with JavaScript, HTML, and CSS. AMD Token Factory integration is pending: participant access and an official endpoint/model are still required. No AMD inference or GPU execution is claimed. The proposed Intelligent Industry entry demonstrates an inspectable decision-support workflow and a clear path toward future validated integrations.",
+  "track": "Intelligent Industry",
+  "tags": [
+    "Python",
+    "NumPy",
+    "SciPy",
+    "CoolProp",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "Process Simulation",
+    "Explainable AI",
+    "Decision Support"
+  ],
+  "repository_url": "https://github.com/CAPEXNULL/REFINERY-ACT-III",
+  "application_url": "https://capexnull.github.io/REFINERY-ACT-III/demo/",
+  "project_page_url": "https://capexnull.github.io/REFINERY-ACT-III/",
+  "live_cpu_url": "https://cold-brave-mpegs-nights.trycloudflare.com/industry",
+  "video_url": "https://capexnull.github.io/REFINERY-ACT-III/demo.mp4",
+  "slides_url": "https://capexnull.github.io/REFINERY-ACT-III/presentation.pdf",
+  "cover_url": "https://capexnull.github.io/REFINERY-ACT-III/cover.png",
+  "hosting": "GitHub Pages (recorded replay), temporary Cloudflare Tunnel (live CPU)",
+  "status": "DRAFT_MATERIALS_READY_AMD_ACCESS_BLOCKED",
+  "amd_inference_performed": false,
+  "final_entry_submitted": false
+}

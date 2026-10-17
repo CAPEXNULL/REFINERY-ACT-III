@@ -1,0 +1,20 @@
+REFINERY - recorded CPU prototype walkthrough
+
+The real CPU calculation took 113.9 seconds; the middle of its waiting period is omitted in the edited video.
+No AMD inference or GPU execution is claimed.
+
+REFINERY makes process decisions inspectable. This is a working CPU prototype with a synthetic refinery unit, six logical process loops, observation-based diagnosis, and conditional forecasts. It is not connected to operating equipment.
+
+First, choose a configuration and a simulated disturbance. Here we request cooling loss and enable action comparison. The service calculates a normal reference and disturbed trajectory, checks physical balances, diagnoses from observations, and evaluates possible responses.
+
+The accepted result appears across the workspace. Expand all displays every equipment temperature and pressure together with the corresponding reference. This demonstration uses simulated measurements, not a live plant stream.
+
+The diagnostic view explains the selected cooling-loss hypothesis using measured residuals and a causal chain. Other hypotheses remain visible. Similarity scores are not calibrated probabilities. Hidden scenario labels are reserved for outcome verification, after the diagnosis.
+
+What-if analysis compares holding the current settings, restoring cooling, reducing heat, and reducing feed. These are conditional predictions under stated model assumptions. The interface issues no commands to real equipment.
+
+The video wall brings loop summaries, equipment states, colored histograms, events, and trends into one large-screen view. Engineers can review the latest accepted calculation without opening each loop in turn.
+
+Reports retain the result identifier, model version, and mass and energy balance evidence. CSV and JSON exports support independent review. The public package includes source code, a frozen synthetic model bundle, and reproducible startup instructions.
+
+This is an engineering prototype, not an industrially qualified safety system. The separate research diagnostics and their frozen results are preserved privately. AMD Token Factory access is still pending. No AMD inference or GPU execution is claimed in this recording.

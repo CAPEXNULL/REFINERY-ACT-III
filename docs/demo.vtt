@@ -1,0 +1,78 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:03.594
+REFINERY makes process decisions inspectable.
+
+00:00:03.594 --> 00:00:15.256
+This is a working CPU prototype with a synthetic refinery unit, six logical process loops, observation-based diagnosis, and conditional forecasts.
+
+00:00:15.256 --> 00:00:18.691
+It is not connected to operating equipment.
+
+00:00:18.691 --> 00:00:23.124
+[Actual CPU calculation: 113.9 seconds; middle of waiting omitted.]
+First, choose a configuration and a simulated disturbance.
+
+00:00:23.124 --> 00:00:27.558
+Here we request cooling loss and enable action comparison.
+
+00:00:27.558 --> 00:00:39.482
+The service calculates a normal reference and disturbed trajectory, checks physical balances, diagnoses from observations, and evaluates possible responses.
+
+00:00:39.482 --> 00:00:43.048
+The accepted result appears across the workspace.
+
+00:00:43.048 --> 00:00:50.544
+Expand all displays every equipment temperature and pressure together with the corresponding reference.
+
+00:00:50.544 --> 00:00:55.784
+This demonstration uses simulated measurements, not a live plant stream.
+
+00:00:55.784 --> 00:01:04.066
+The diagnostic view explains the selected cooling-loss hypothesis using measured residuals and a causal chain.
+
+00:01:04.066 --> 00:01:06.475
+Other hypotheses remain visible.
+
+00:01:06.475 --> 00:01:10.315
+Similarity scores are not calibrated probabilities.
+
+00:01:10.315 --> 00:01:16.490
+Hidden scenario labels are reserved for outcome verification, after the diagnosis.
+
+00:01:16.490 --> 00:01:24.458
+What-if analysis compares holding the current settings, restoring cooling, reducing heat, and reducing feed.
+
+00:01:24.458 --> 00:01:29.254
+These are conditional predictions under stated model assumptions.
+
+00:01:29.254 --> 00:01:33.016
+The interface issues no commands to real equipment.
+
+00:01:33.016 --> 00:01:41.710
+The video wall brings loop summaries, equipment states, colored histograms, events, and trends into one large-screen view.
+
+00:01:41.710 --> 00:01:47.909
+Engineers can review the latest accepted calculation without opening each loop in turn.
+
+00:01:47.909 --> 00:01:54.992
+Reports retain the result identifier, model version, and mass and energy balance evidence.
+
+00:01:54.992 --> 00:01:58.770
+CSV and JSON exports support independent review.
+
+00:01:58.770 --> 00:02:07.585
+The public package includes source code, a frozen synthetic model bundle, and reproducible startup instructions.
+
+00:02:07.585 --> 00:02:13.664
+This is an engineering prototype, not an industrially qualified safety system.
+
+00:02:13.664 --> 00:02:20.133
+The separate research diagnostics and their frozen results are preserved privately.
+
+00:02:20.133 --> 00:02:23.406
+AMD Token Factory access is still pending.
+
+00:02:23.406 --> 00:02:28.316
+No AMD inference or GPU execution is claimed in this recording.
+

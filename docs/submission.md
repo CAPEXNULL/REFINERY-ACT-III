@@ -16,7 +16,7 @@ An engineer can run a scenario, inspect temperatures and pressures across six lo
 
 The prototype keeps important boundaries visible. Diagnostic similarity scores are not calibrated probabilities. Forecasts depend on stated assumptions. Imported data is marked as unverified, missing observations remain missing, and the interface issues no commands to operating equipment. This is a synthetic unit model, not an industrially qualified refinery control system.
 
-The current demonstration uses Python, NumPy, SciPy, CoolProp, and a browser interface built with JavaScript, HTML, and CSS. AMD Token Factory integration is pending: account registration and an official endpoint/model are still required. No AMD inference or GPU execution is claimed. The proposed Intelligent Industry entry demonstrates an inspectable decision-support workflow and a clear path toward future validated integrations.
+The current demonstration uses Python, NumPy, SciPy, CoolProp, and a browser interface built with JavaScript, HTML, and CSS. AMD Token Factory integration is pending: participant access and an official endpoint/model are still required. No AMD inference or GPU execution is claimed. The proposed Intelligent Industry entry demonstrates an inspectable decision-support workflow and a clear path toward future validated integrations.
 
 ## Proposed track
 
@@ -32,10 +32,13 @@ Python · NumPy · SciPy · CoolProp · JavaScript · HTML · CSS · Process Sim
 | --- | --- |
 | Cover | [16:9 PNG](../assets/contest/cover.png) · [SVG source](../assets/contest/cover.svg) |
 | Slides | [PDF](presentation.pdf) · [PowerPoint](presentation.pptx) · [HTML](presentation.html) |
-| Public repository | Planned target: `CAPEXNULL/REFINERY-ACT-III`; publication status pending |
-| Live demo URL | Pending deployment and verification |
-| Demo video | Pending recording; maximum duration 5 minutes |
-| AMD Token Factory | Pending account registration and an official endpoint/model; no AMD execution claimed |
+| Public repository | [CAPEXNULL/REFINERY-ACT-III](https://github.com/CAPEXNULL/REFINERY-ACT-III) - public and verified |
+| Permanent project page | [https://capexnull.github.io/REFINERY-ACT-III/](https://capexnull.github.io/REFINERY-ACT-III/) |
+| Recorded interactive demo | [Read-only synthetic replay](https://capexnull.github.io/REFINERY-ACT-III/demo/) |
+| Live CPU workspace | [https://cold-brave-mpegs-nights.trycloudflare.com/industry](https://cold-brave-mpegs-nights.trycloudflare.com/industry) - temporary, while its host runs |
+| Hosting | GitHub Pages (permanent recorded replay); Cloudflare quick tunnel (temporary live CPU application) |
+| Demo video | [MP4](https://capexnull.github.io/REFINERY-ACT-III/demo.mp4) - 2:28, 4.63 MB, English narration; [captions](demo.vtt) and [transcript](demo-transcript.txt) |
+| AMD Token Factory | Pending participant access and an official endpoint/model; no AMD execution claimed |
 
 The local CPU demonstration is available by running `python -m amd.server` and opening `http://127.0.0.1:8765/industry`. No API key is required.
 
@@ -48,4 +51,4 @@ The local CPU demonstration is available by running `python -m amd.server` and o
 5. Compare conditional action forecasts, then open the video wall.
 6. Close with the synthetic-data limits and AMD integration status.
 
-Requirements source: [official ACT III event page](https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii). The repository and live demo fields must point to verified public locations before the final contest submission.
+Requirements source: [official ACT III event page](https://lablab.ai/ai-hackathons/amd-developer-hackathon-act-iii). The repository, permanent page and interactive replay have been verified publicly. The entry remains a draft package: meaningful AMD integration is not yet demonstrated, and the final contest form has not been submitted.
