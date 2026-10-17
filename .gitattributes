@@ -1,0 +1,13 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+assets/refinery/*.json -text
+*.png binary
+Dockerfile text eol=lf
+
+# Preserve packaged Python source bytes for frozen-model provenance.
+amd/*.py -text

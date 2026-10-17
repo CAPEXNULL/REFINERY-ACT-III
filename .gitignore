@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+reports/
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+*.p12
+credentials*
+secrets*
+*.log
+.DS_Store

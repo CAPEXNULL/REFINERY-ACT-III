@@ -1,0 +1,259 @@
+{
+  "version": 12,
+  "samples": [
+    {
+      "label": "cooling_loss",
+      "direction": [
+        0.0,
+        0.0,
+        0.9999065892383453,
+        0.013667947824708662,
+        0.0
+      ],
+      "features": [
+        0.0,
+        0.0,
+        1.3885037579663617,
+        0.018979769833052273,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0001",
+      "variant": "A-variant-1"
+    },
+    {
+      "label": "cooling_loss",
+      "direction": [
+        0.0,
+        0.0,
+        0.999835111694889,
+        0.01815900388427363,
+        0.0
+      ],
+      "features": [
+        0.0,
+        0.0,
+        1.423690977710777,
+        0.025857073523283702,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0002",
+      "variant": "A-variant-2"
+    },
+    {
+      "label": "cooling_loss",
+      "direction": [
+        0.0,
+        0.0,
+        0.9997448500451801,
+        0.02258837772263341,
+        0.0
+      ],
+      "features": [
+        0.0,
+        0.0,
+        1.3452966644601076,
+        0.030395824699122425,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0003",
+      "variant": "A-variant-3"
+    },
+    {
+      "label": "cooling_loss",
+      "direction": [
+        0.0,
+        0.0,
+        0.9996371341338467,
+        0.0269369645778746,
+        0.0
+      ],
+      "features": [
+        0.0,
+        0.0,
+        1.1587452296440972,
+        0.03122440947809461,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0004",
+      "variant": "A-variant-4"
+    },
+    {
+      "label": "heater_loss",
+      "direction": [
+        -0.999999510195519,
+        0.0,
+        0.0,
+        -0.0009897518486729389,
+        0.0
+      ],
+      "features": [
+        -1.732492390899722,
+        0.0,
+        0.0,
+        -0.001714738386591345,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0005",
+      "variant": "A-variant-5"
+    },
+    {
+      "label": "heater_loss",
+      "direction": [
+        -0.9999991617814232,
+        0.0,
+        0.0,
+        -0.0012941365989938114,
+        -4.0582189827625256e-05
+      ],
+      "features": [
+        -1.7959191805782098,
+        0.0,
+        0.0,
+        -0.002324166688580931,
+        -7.288239419267484e-05
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0006",
+      "variant": "A-variant-6"
+    },
+    {
+      "label": "heater_loss",
+      "direction": [
+        -0.9999987025001624,
+        0.0,
+        -5.281731988856181e-06,
+        -0.0016096600254897012,
+        -6.296584189871028e-05
+      ],
+      "features": [
+        -1.7153396032543924,
+        0.0,
+        -9.059975809577736e-06,
+        -0.0027611171720470415,
+        -0.00010800794240140021
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0007",
+      "variant": "A-variant-7"
+    },
+    {
+      "label": "heater_loss",
+      "direction": [
+        -0.999998187075108,
+        0.0,
+        -1.1422715472399151e-05,
+        -0.001899984053732905,
+        -0.00012560499439946956
+      ],
+      "features": [
+        -1.492990568604455,
+        0.0,
+        -1.7054037385833e-05,
+        -0.002836663415379803,
+        -0.00018752741198113654
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0008",
+      "variant": "A-variant-8"
+    },
+    {
+      "label": "sensor_bias",
+      "direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": [
+        4.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0009",
+      "variant": "A-variant-9"
+    },
+    {
+      "label": "sensor_bias",
+      "direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": [
+        4.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0010",
+      "variant": "A-variant-10"
+    },
+    {
+      "label": "sensor_bias",
+      "direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": [
+        4.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0011",
+      "variant": "A-variant-11"
+    },
+    {
+      "label": "sensor_bias",
+      "direction": [
+        0.7071067811865475,
+        0.7071067811865475,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "features": [
+        4.0,
+        4.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "direction_orientation": 1,
+      "outcome_id": "case-0012",
+      "variant": "A-variant-12"
+    }
+  ],
+  "outcomes": [
+    "case-0001",
+    "case-0002",
+    "case-0003",
+    "case-0004",
+    "case-0005",
+    "case-0006",
+    "case-0007",
+    "case-0008",
+    "case-0009",
+    "case-0010",
+    "case-0011",
+    "case-0012"
+  ]
+}

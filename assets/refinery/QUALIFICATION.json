@@ -1,0 +1,19 @@
+{
+  "schema": "refinery-qualified-model-v1",
+  "source_report": "assets/refinery/TRANSFER_REPORT.json",
+  "report_sha256": "4e0cb1940d273aea554a44b4b46ad2be6db6eb3d6da9a886a13248f19adc6019",
+  "model_sha256": "d596c3322a43951994af017a86ccbbf0a5b66219e30ca17e3664a83cf45b505b",
+  "scope": "finite A/B/C surrogate qualification; no real plant or TEP diagnostic acceptance",
+  "source_hash_method": "CRLF-to-LF-only",
+  "source_sha256_lf": {
+    "amd\\plant.py": "266ecd554731eb9ba0c84a0ea6c1ab3cffdf6f8678dee76663b13a115428369e",
+    "amd\\thermo.py": "d0d73fc3290ea34447772ce9e33b43812a81764f7304b05f79b81c55b4fb2c66",
+    "amd\\column.py": "b00882f8c8d5561b18a27f6846ab48b2584e8de630bebaf4fd70040ad4d8b774",
+    "amd\\diagnostics.py": "1f1ba14e52658af07e2bfc701a854704cd800739e8d38cf520a8442117caae92",
+    "amd\\perseus.py": "626fbc85d5869662ca54d8f0b4885753e201334be2041b3e2842c77f6c704223",
+    "amd\\dso.py": "dff87ba22eb753f9a7413ac2dd3cf4ee04927b38ffd4562ab3e2f686eee9273b",
+    "amd\\planning.py": "f2accf7141f9e7a7dc1318361550d17f2be25897bf2e9677b0e8493b28450f1e",
+    "amd\\human_adapter.py": "b9bc7ccceafd1f68c780c1381efae5a5f01e5ef7344f5e44bb148c3d6b5d9d6f",
+    "amd\\reasoning.py": "5357c94d3d85bd0f054df564a5b91c97060a426b25a55848d1f3968a4a1f906f"
+  }
+}

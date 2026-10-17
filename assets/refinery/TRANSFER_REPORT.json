@@ -1,0 +1,392 @@
+{
+  "protocol": {
+    "created_at": "2026-10-12T04:05:43.895846+00:00",
+    "training": "A: 4 variants per cause; durations 4/4.5/5/5.5; severity .4/.5/.6/.7",
+    "frozen_transfer": "B and C: normal and three causes, duration6 severity.6; noise .005K/.002kPa, seed fixed by case number",
+    "adaptation": "only after frozen diagnoses persisted, reveal evaluator outcomes and train B/C",
+    "retention": "A new cases duration6 severity.45 after B/C adaptation",
+    "source_manifest": [
+      {
+        "path": "amd\\plant.py",
+        "sha256": "266ecd554731eb9ba0c84a0ea6c1ab3cffdf6f8678dee76663b13a115428369e"
+      },
+      {
+        "path": "amd\\thermo.py",
+        "sha256": "d0d73fc3290ea34447772ce9e33b43812a81764f7304b05f79b81c55b4fb2c66"
+      },
+      {
+        "path": "amd\\column.py",
+        "sha256": "b00882f8c8d5561b18a27f6846ab48b2584e8de630bebaf4fd70040ad4d8b774"
+      },
+      {
+        "path": "amd\\diagnostics.py",
+        "sha256": "9087a108520c8dd5491aa78d0dcada5b644fab5263488cb218dd84f8200f4118"
+      },
+      {
+        "path": "amd\\perseus.py",
+        "sha256": "dd1f5e3b84db6f68fb271ac7140618ae8458e5fd973ff6d6c71470b043e512d1"
+      },
+      {
+        "path": "amd\\dso.py",
+        "sha256": "dff87ba22eb753f9a7413ac2dd3cf4ee04927b38ffd4562ab3e2f686eee9273b"
+      },
+      {
+        "path": "amd\\planning.py",
+        "sha256": "f2accf7141f9e7a7dc1318361550d17f2be25897bf2e9677b0e8493b28450f1e"
+      },
+      {
+        "path": "amd\\human_adapter.py",
+        "sha256": "b9bc7ccceafd1f68c780c1381efae5a5f01e5ef7344f5e44bb148c3d6b5d9d6f"
+      },
+      {
+        "path": "amd\\reasoning.py",
+        "sha256": "5357c94d3d85bd0f054df564a5b91c97060a426b25a55848d1f3968a4a1f906f"
+      }
+    ],
+    "criteria": {
+      "mass_mol": 1e-07,
+      "energy_J": 0.001,
+      "per_configuration_accuracy": 0.75,
+      "retention_accuracy": 1.0,
+      "frozen_model_unchanged": true,
+      "no_truth_in_diagnostic_input": true
+    },
+    "scope": "finite surrogate experiment; no broad industrial statistical claim"
+  },
+  "cases": [
+    {
+      "event_id": "case-0001",
+      "configuration": "A",
+      "predicted": "unknown",
+      "actual": "cooling_loss",
+      "naive_predicted": "unknown",
+      "model_version": 0,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 4.0,
+      "severity": 0.4
+    },
+    {
+      "event_id": "case-0002",
+      "configuration": "A",
+      "predicted": "cooling_loss",
+      "actual": "cooling_loss",
+      "naive_predicted": "unknown",
+      "model_version": 1,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 4.5,
+      "severity": 0.5
+    },
+    {
+      "event_id": "case-0003",
+      "configuration": "A",
+      "predicted": "cooling_loss",
+      "actual": "cooling_loss",
+      "naive_predicted": "unknown",
+      "model_version": 2,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 5.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0004",
+      "configuration": "A",
+      "predicted": "cooling_loss",
+      "actual": "cooling_loss",
+      "naive_predicted": "unknown",
+      "model_version": 3,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 5.5,
+      "severity": 0.7
+    },
+    {
+      "event_id": "case-0005",
+      "configuration": "A",
+      "predicted": "unknown",
+      "actual": "heater_loss",
+      "naive_predicted": "unknown",
+      "model_version": 4,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 4.0,
+      "severity": 0.4
+    },
+    {
+      "event_id": "case-0006",
+      "configuration": "A",
+      "predicted": "heater_loss",
+      "actual": "heater_loss",
+      "naive_predicted": "unknown",
+      "model_version": 5,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 4.5,
+      "severity": 0.5
+    },
+    {
+      "event_id": "case-0007",
+      "configuration": "A",
+      "predicted": "heater_loss",
+      "actual": "heater_loss",
+      "naive_predicted": "unknown",
+      "model_version": 6,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 5.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0008",
+      "configuration": "A",
+      "predicted": "heater_loss",
+      "actual": "heater_loss",
+      "naive_predicted": "unknown",
+      "model_version": 7,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 5.5,
+      "severity": 0.7
+    },
+    {
+      "event_id": "case-0009",
+      "configuration": "A",
+      "predicted": "unknown",
+      "actual": "sensor_bias",
+      "naive_predicted": "unknown",
+      "model_version": 8,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 4.0,
+      "severity": 0.4
+    },
+    {
+      "event_id": "case-0010",
+      "configuration": "A",
+      "predicted": "sensor_bias",
+      "actual": "sensor_bias",
+      "naive_predicted": "unknown",
+      "model_version": 9,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 4.5,
+      "severity": 0.5
+    },
+    {
+      "event_id": "case-0011",
+      "configuration": "A",
+      "predicted": "sensor_bias",
+      "actual": "sensor_bias",
+      "naive_predicted": "unknown",
+      "model_version": 10,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 5.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0012",
+      "configuration": "A",
+      "predicted": "sensor_bias",
+      "actual": "sensor_bias",
+      "naive_predicted": "unknown",
+      "model_version": 11,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 5.5,
+      "severity": 0.7
+    },
+    {
+      "event_id": "case-0013",
+      "configuration": "B",
+      "predicted": "normal",
+      "actual": "normal",
+      "naive_predicted": "normal",
+      "model_version": 12,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0014",
+      "configuration": "B",
+      "predicted": "cooling_loss",
+      "actual": "cooling_loss",
+      "naive_predicted": "unknown",
+      "model_version": 12,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0015",
+      "configuration": "B",
+      "predicted": "heater_loss",
+      "actual": "heater_loss",
+      "naive_predicted": "unknown",
+      "model_version": 12,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0016",
+      "configuration": "B",
+      "predicted": "sensor_bias",
+      "actual": "sensor_bias",
+      "naive_predicted": "unknown",
+      "model_version": 12,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0017",
+      "configuration": "C",
+      "predicted": "normal",
+      "actual": "normal",
+      "naive_predicted": "normal",
+      "model_version": 12,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0018",
+      "configuration": "C",
+      "predicted": "cooling_loss",
+      "actual": "cooling_loss",
+      "naive_predicted": "unknown",
+      "model_version": 12,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0019",
+      "configuration": "C",
+      "predicted": "heater_loss",
+      "actual": "heater_loss",
+      "naive_predicted": "unknown",
+      "model_version": 12,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0020",
+      "configuration": "C",
+      "predicted": "sensor_bias",
+      "actual": "sensor_bias",
+      "naive_predicted": "unknown",
+      "model_version": 12,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.6
+    },
+    {
+      "event_id": "case-0021",
+      "configuration": "A",
+      "predicted": "cooling_loss",
+      "actual": "cooling_loss",
+      "naive_predicted": "unknown",
+      "model_version": 20,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.45
+    },
+    {
+      "event_id": "case-0022",
+      "configuration": "A",
+      "predicted": "heater_loss",
+      "actual": "heater_loss",
+      "naive_predicted": "unknown",
+      "model_version": 20,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.45
+    },
+    {
+      "event_id": "case-0023",
+      "configuration": "A",
+      "predicted": "sensor_bias",
+      "actual": "sensor_bias",
+      "naive_predicted": "unknown",
+      "model_version": 20,
+      "physical_evidence": "private-run-provenance-omitted",
+      "duration_s": 6.0,
+      "severity": 0.45
+    }
+  ],
+  "frozen_model_sha256": "d1715f9371a37eda504637decc4a75b5e0cf62b744722a937c54d52d61a243fb",
+  "frozen_version": 12,
+  "transfer_accuracy": {
+    "B": 1.0,
+    "C": 1.0
+  },
+  "naive_accuracy": {
+    "B": 0.25,
+    "C": 0.25
+  },
+  "retention_accuracy": 1.0,
+  "diagnostic_skills": [
+    {
+      "id": "diagnose-cooling_loss",
+      "tool": "industrial_diagnosis",
+      "cause": "cooling_loss",
+      "strength": 0.8571428571428571,
+      "variants": [
+        "A-variant-2",
+        "A-variant-3",
+        "A-variant-4",
+        "B-variant-case-0014",
+        "C-variant-case-0018",
+        "retention-case-0021"
+      ],
+      "shapes": [
+        "column:6,condenser:1,heater:1,reboiler:1",
+        "column:6,condenser:2,heater:1,reboiler:1",
+        "column:8,condenser:1,heater:1,reboiler:1"
+      ]
+    },
+    {
+      "id": "diagnose-heater_loss",
+      "tool": "industrial_diagnosis",
+      "cause": "heater_loss",
+      "strength": 0.8571428571428571,
+      "variants": [
+        "A-variant-6",
+        "A-variant-7",
+        "A-variant-8",
+        "B-variant-case-0015",
+        "C-variant-case-0019",
+        "retention-case-0022"
+      ],
+      "shapes": [
+        "column:6,condenser:1,heater:1,reboiler:1",
+        "column:6,condenser:2,heater:1,reboiler:1",
+        "column:8,condenser:1,heater:1,reboiler:1"
+      ]
+    },
+    {
+      "id": "diagnose-sensor_bias",
+      "tool": "industrial_diagnosis",
+      "cause": "sensor_bias",
+      "strength": 0.8571428571428571,
+      "variants": [
+        "A-variant-10",
+        "A-variant-11",
+        "A-variant-12",
+        "B-variant-case-0016",
+        "C-variant-case-0020",
+        "retention-case-0023"
+      ],
+      "shapes": [
+        "column:6,condenser:1,heater:1,reboiler:1",
+        "column:6,condenser:2,heater:1,reboiler:1",
+        "column:8,condenser:1,heater:1,reboiler:1"
+      ]
+    }
+  ],
+  "confirmed_transfers": 6,
+  "source_unchanged": true,
+  "limitations": [
+    "finite synthetic surrogate scenarios",
+    "similarity is not calibrated probability",
+    "no real refinery/AMD claim"
+  ],
+  "negative_transfer_error_difference": {
+    "B": -0.75,
+    "C": -0.75
+  }
+}
