@@ -13,14 +13,14 @@ from amd.pilot import condenser_pilot
 from amd.dynamics import run_coupled
 from amd.perseus import Perseus
 from amd.audit import Trace
-from amd.industry_service import IndustryService
+from amd.amd_industry_service import AMDIndustryService
 from amd.workspace import Workspace, WorkspaceBusy
 
 ROOT=Path(__file__).resolve().parents[1]
 LOCK=threading.Lock()
 AUDIT=Trace(ROOT/'reports'/'trace'/'runtime')
 PERSEUS=Perseus(ROOT/'reports'/'trace'/'runtime'/'SUBJECT_STATE.json',audit=AUDIT)
-INDUSTRY=IndustryService(ROOT)
+INDUSTRY=AMDIndustryService(ROOT)
 WORKSPACE=Workspace(INDUSTRY,LOCK)
 
 
